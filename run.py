@@ -15,7 +15,7 @@ bots = len(proxys)
 bots_str = str(bots)
 
 def si():
-    print(Colorate.Diagonal(Colors.red_to_white, "GOODLUCK | USER: imscruz | PLAN :: FREE! | Proxy: " + bots_str + " | kys"))
+    print(Colorate.Diagonal(Colors.red_to_white, "GOODLUCK | USER: encypt | PLAN :: FREE! | Proxy: " + bots_str + " | kys"))
     print("")
   
 def layer7():
@@ -67,7 +67,7 @@ list of commands type "HELP"
 def main():
     menu()
     while(True):
-        cnc = input(Colorate.Diagonal(Colors.red_to_white, "imscruz@99#~"))
+        cnc = input(Colorate.Diagonal(Colors.red_to_white, "root@local~"))
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
         elif cnc == "clear" or cnc == "CLEAR" or cnc == "CLS" or cnc == "cls":
