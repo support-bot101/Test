@@ -82,7 +82,7 @@ def main():
             except IndexError:
                 print('Usage: METHOD URL TIME');
                 print('Example: METHOD URL TIME');
-        elif "editp" in cnc
+        elif "editp" in cnc:
             os.system("nano proxy.txt")
         elif "BYPASS" in cnc:
             try: 
