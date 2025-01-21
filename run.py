@@ -15,13 +15,13 @@ bots = len(proxys)
 bots_str = str(bots)
 
 def si():
-    print(Colorate.Diagonal(Colors.red_to_white, "GOODLUCK | USER: encypt | PLAN :: FREE! | Proxy: " + bots_str + " | kys"))
+    print(Colorate.Diagonal(Colors.blue_to_white, "GOODLUCK | USER: encypt | PLAN :: FREE! | Proxy: " + bots_str + " | kys"))
     print("")
   
 def layer7():
     clear()
     si()
-    print(Colorate.Horizontal(Colors.red_to_white, ''' 
+    print(Colorate.Horizontal(Colors.blue_to_white, ''' 
 
 ░▒▓███████▓▒░░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░ 
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
@@ -50,7 +50,7 @@ type "editp" to edit the Proxy list
 
 def menu():
     clear()
-    print(Colorate.Diagonal(Colors.red_to_white
+    print(Colorate.Diagonal(Colors.blue_to_white
    , "dont be afraid| USER: anonymous| PLAN :: FREE! | Proxy: " + bots_str + " | WORKING NOW "))
     print("")
     banner = '''
@@ -69,7 +69,7 @@ MADE BY ~ encypt ~
 
 list of commands type "HELP"
 '''
-    print(Colorate.Diagonal(Colors.red_to_white, banner))
+    print(Colorate.Diagonal(Colors.blue_to_white, banner))
 def main():
     menu()
     while(True):
