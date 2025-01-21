@@ -103,7 +103,7 @@ def main():
         elif "root" in cnc:
             try: 
                 print("ARE YOU TRYING TO GET ROOT? GET LOST!")
-                os.system(f'python3 socks/typings_.py')
+                os.system(f'echo bozo you found a secret good job')
             except IndexError:
                 print('DONT!');
                 print('DO NOT USE THAT');
@@ -113,6 +113,7 @@ def main():
 LAYER7 - TO SEE ALL LAYER7 LIST
 HELP - FOR HELP
 CLEAR - SOME CLEANING!
+editp - edit proxys
 '''))
         else:
             try:
